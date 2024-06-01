@@ -10,13 +10,11 @@ public class PalindromeNumber {
 			result = result * 10 + digit;
 			input = input / 10;
 		}
-		if(result == x)
-			return true;
-		return false;
+		return (result == x);
 	}
 	
 	public static void main(String args[]) {
 		PalindromeNumber obj = new PalindromeNumber();
-		System.out.println(obj.isPalindrome(0));
+		System.out.println(obj.isPalindrome(121011));
 	}
 }
