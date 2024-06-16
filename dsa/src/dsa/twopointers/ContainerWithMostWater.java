@@ -31,7 +31,7 @@ public class ContainerWithMostWater {
 	
 	public static void main(String[] args) {
 		ContainerWithMostWater obj = new ContainerWithMostWater();
-		int[] height = {1,1};
+		int[] height = {1,8,6,2,5,4,8,3,7};
 		System.out.println(obj.maxArea(height));
 	}
 }
